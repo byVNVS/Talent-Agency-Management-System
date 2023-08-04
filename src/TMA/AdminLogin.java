@@ -38,7 +38,6 @@ public class AdminLogin extends javax.swing.JFrame {
         bg = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1000, 640));
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.LINE_AXIS));
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -78,7 +77,7 @@ public class AdminLogin extends javax.swing.JFrame {
 
         bg.setBackground(new java.awt.Color(144, 238, 144));
         bg.setIcon(new javax.swing.ImageIcon("C:\\Users\\Anas Rahman\\Documents\\NetBeansProjects\\TalentManagementAgency\\Images\\loginbg.png")); // NOI18N
-        jPanel1.add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        jPanel1.add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
         getContentPane().add(jPanel1);
 
